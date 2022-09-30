@@ -14,7 +14,7 @@ function App() {
   
   return (
     <div className="App">
-      <Etablissement stg = {stagiaires}/>
+      <Etablissement stg = {stagiaires} count = {stagiaires.length}/>
     </div>
   );
 }
